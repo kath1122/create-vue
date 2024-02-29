@@ -1,6 +1,11 @@
+<script setup>
+const name = ref('mike')
+// const {t}=useI18n()
+// console.log(t)
+</script>
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is an about {{ name }}'s page</h1>
   </div>
 </template>
 
